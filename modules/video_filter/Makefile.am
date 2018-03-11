@@ -147,7 +147,7 @@ endif
 libdeinterlace_plugin_la_LIBADD = libdeinterlace_common.la
 video_filter_LTLIBRARIES += libdeinterlace_plugin.la
 
-libopencv_wrapper_plugin_la_SOURCES = video_filter/opencv_wrapper.c
+libopencv_wrapper_plugin_la_SOURCES = video_filter/opencv_wrapper.cpp
 libopencv_wrapper_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(OPENCV_CFLAGS)
 libopencv_wrapper_plugin_la_LIBADD = $(OPENCV_LIBS)
 libopencv_wrapper_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(video_filterdir)'
