@@ -33,6 +33,7 @@
 #include <vlc_config_cat.h>
 #include <vlc_configuration.h>
 
+#include <QButtonGroup>
 #include <QString>
 #include <QFont>
 #include <QToolButton>
